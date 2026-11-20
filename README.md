@@ -1,4 +1,4 @@
-4. FinAssist: Privacy-First Digital Financial Advisor Platform
+FinAssist: Privacy-First Digital Financial Advisor Platform
 📌 Project Overview
 
 FinAssist aims to develop a privacy-first digital financial advisor platform that leverages Artificial Intelligence (AI) to deliver personalized financial recommendations.
