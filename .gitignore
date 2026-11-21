@@ -1,0 +1,63 @@
+
+# ==========================================
+# FinAssist - Git Ignore Configuration
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.temp
+.cache/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Generated Python files
+*.pyo

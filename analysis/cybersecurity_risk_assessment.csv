@@ -1,0 +1,7 @@
+Threat,Likelihood,Impact,Protection,Risk Score,Risk Level
+Unauthorized Access,4,5,MFA and access control,20,High
+Excessive Data Collection,4,4,Data minimization and retention limits,16,High
+Data Leakage,3,5,Encryption and secure configuration,15,High
+Insecure Transmission,3,5,TLS and secure communication,15,High
+Insider Threats,3,4,Least privilege and audit logs,12,Medium
+Third-Party Exposure,3,4,Vendor assessment and data minimization,12,Medium
