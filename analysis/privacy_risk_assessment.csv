@@ -1,0 +1,16 @@
+Data Column,Sensitivity,Potential Risk,Recommended Protection
+Name,High,Direct identification,Remove from analytical outputs
+Age,Medium,Re-identification when combined,Use age groups
+Location,High,Location-based identification,Use broader geographic regions
+Gender,Medium,Personal profiling,Restrict unnecessary processing
+Income,High,Exposure of earnings,Restrict access and encrypt
+Assets,High,Exposure of financial wealth,Restrict access and encrypt
+Debts,High,Exposure of financial liabilities,Restrict access and encrypt
+Monthly Expenses,High,Exposure of spending patterns,Restrict access and encrypt
+Investment Preference,Medium-High,Financial profiling,Limit collection and access
+Type of Advice Sought,Medium-High,Disclosure of financial needs,Limit access
+User Financial Goal,Medium-High,Exposure of financial plans,Limit collection and access
+Action Based on Advice,Medium,Behavioral profiling,Use aggregated reporting
+Feedback on Advice,Medium,Disclosure of customer opinions,Remove direct identifiers
+App Usability Feedback,Medium,Disclosure of customer opinions,Remove direct identifiers
+Trust Level with Digital Advisor,Medium,Behavioral profiling,Use aggregated reporting
