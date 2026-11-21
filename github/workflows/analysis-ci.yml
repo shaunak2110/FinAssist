@@ -1,0 +1,65 @@
+
+name: FinAssist Analysis CI
+
+on:
+  push:
+    branches:
+      - development
+      - main
+
+  pull_request:
+    branches:
+      - development
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-analysis:
+    name: Validate Python and Jupyter
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install nbformat
+
+      - name: Validate Python syntax
+        run: |
+          python -m compileall -q analysis
+
+      - name: Validate Jupyter notebooks
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import nbformat
+
+          notebooks = list(Path("analysis").rglob("*.ipynb"))
+
+          for path in notebooks:
+              nb = nbformat.read(path, as_version=4)
+              nbformat.validate(nb)
+
+              for cell in nb.cells:
+                  if cell.cell_type == "code" and cell.get("outputs"):
+                      raise SystemExit(
+                          f"Saved notebook outputs found in {path}. "
+                          "Clear outputs before committing."
+                      )
+
+              print(f"PASS: {path}")
+
+          print(f"Validated {len(notebooks)} notebooks")
+          PY
