@@ -1,0 +1,8 @@
+GDPR Principle,Requirement,FinAssist Implementation
+"Lawfulness, Fairness and Transparency",Process personal data lawfully and explain how it is used.,Provide a clear privacy notice and identify an appropriate legal basis for each processing purpose.
+Purpose Limitation,"Collect data for specific, explicit and legitimate purposes.","Use financial information only for disclosed purposes, such as financial analysis and personalised advice."
+Data Minimisation,Collect only data necessary for the intended purpose.,Avoid collecting unnecessary identity and financial details.
+Accuracy,Keep personal data accurate and up to date.,Allow users to review and correct their financial information.
+Storage Limitation,Keep personal data only for as long as necessary.,Establish retention periods and securely delete data when it is no longer required.
+Integrity and Confidentiality,"Protect personal data against unauthorised access, loss and disclosure.","Use encryption, multi-factor authentication, access controls and secure backups."
+Accountability,Demonstrate compliance with data protection principles.,"Maintain processing records, document security controls and review compliance regularly."
