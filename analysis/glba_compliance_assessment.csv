@@ -1,0 +1,8 @@
+GLBA Requirement,Requirement,FinAssist Implementation
+Financial Privacy Notice,Inform customers about financial data collection and sharing practices.,"Provide a clear privacy notice explaining how financial information is collected, processed and shared."
+Opt-Out Rights,Allow consumers to opt out of certain information sharing with nonaffiliated third parties.,Provide privacy settings to control applicable third-party data sharing.
+Information Security Programme,Establish and maintain safeguards to protect customer information.,"Implement encryption, access controls, secure authentication and documented security policies."
+Risk Assessment,Identify and assess risks to customer information.,Perform regular cybersecurity and privacy risk assessments.
+Third-Party Security,Ensure service providers adequately protect customer information.,Evaluate third-party services and restrict access to necessary financial data.
+Pretexting Protection,Prevent fraudulent access to customer financial information.,"Use multi-factor authentication, identity verification and suspicious activity monitoring."
+Security Monitoring and Testing,Monitor and evaluate the effectiveness of security safeguards.,"Perform security testing, maintain audit logs and regularly review access controls."
